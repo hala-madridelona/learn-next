@@ -1,5 +1,5 @@
-export default function Home() {
-  return (
-    <div>Welcome to NextJs 15</div>
-  );
+import CodeEditor from "@/components/code-editor/code-editor";
+
+export default function Home(){
+  return <CodeEditor />
 }
